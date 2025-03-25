@@ -28,12 +28,12 @@ def standardize_image(img, target_size=(730, 730), background_color=(255, 255, 2
     return standardized
 
 # --- Script Configuration ---
-base_path = r"D:\2022\IT_Rendszerfejlesztés\II_fazis"
+base_path = r"D:\2022\IT_Rendszerfejlesztes\II_fazis\kiegeszitok_kulacsok"
 
 # Paths
-txt_file = os.path.join(base_path, "alkatrészek.txt")
-output_dir = os.path.join(base_path, "import_images_bikepro")
-source_dir = os.path.join(base_path, "bikepro_images")
+txt_file = os.path.join(base_path, "kulacsok.txt")
+output_dir = os.path.join(base_path, "import_images")
+source_dir = os.path.join(base_path, "images")
 
 # Thumbnail sizes
 SMALL_THUMB = (530, 530)
